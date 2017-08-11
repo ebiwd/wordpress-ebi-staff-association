@@ -33,9 +33,47 @@
         <li class="home active"><a href="//www.embl.org" target="_blank">EMBL</a></li>
         <li class="about"><a href="//intranet.embl.de">EMBL Intranet</a></li>
         <li class="float-right show-for-medium embl-selector">
-					<button class="button float-right"><a href="//www.embl.org"></a></button>
+					<button class="button float-right" data-toggle="embl-dropdown2">Global</button>
           <!-- <button class="button float-right" type="button" data-toggle="embl-dropdown">Global</button> -->
           <!-- The dropdown menu will be programatically added by script.js -->
+
+
+					<div id="embl-dropdown2" class="embl-dropdown dropdown-pane bottom" data-dropdown>
+										<p>BINGO! EMBL-EBI in Hinxton, Cambridge is one of <br/>six EMBL locations across europe.<br/> <a href="//www.ebi.ac.uk/about" class="small readmore">More about EMBL-EBI</a></p>
+										<h6>Connect to another EMBL location</h6>
+										<div class="small-collapse padding-bottom-large clearfix">
+											<div class="columns small-5 padding-bottom-medium">
+												<a href="http://www.embl.de/">Heidelberg</a>
+												<div class="small">Main laboratory</div>
+											</div>
+											<div class="columns small-7 padding-bottom-medium">
+												<a href="http://www.embl-barcelona.es/">Barcelona</a>
+												<div class="small">Tissue biology and disease modelling</div>
+											</div>
+											<div class="columns small-5 padding-bottom-medium">
+												<a href="http://www.embl.fr/">Grenoble</a>
+												<div class="small">Structural biology</div>
+											</div>
+											<div class="columns small-7 padding-bottom-medium">
+												<a href="http://www.embl-hamburg.de/">Hamburg</a>
+												<div class="small">Structural biology</div>
+											</div>
+											<div class="columns small-5 padding-bottom-medium">
+												<a href="http://www.embl.it/">Rome</a>
+												<div class="small">Epigenetics and neurobiology</div>
+											</div>
+											<div class="columns small-7 padding-bottom-medium">
+												<a href="http://embl.org/" class="readmore">More about EMBL</a>
+											</div>
+										</div>
+					</div>
+
+
+
+
+
+
+
         </li>
       </ul>
     </nav>
