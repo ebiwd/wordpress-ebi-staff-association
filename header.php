@@ -25,60 +25,86 @@
       <li><a href="#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a></li>
     </ul>
   </div>
-  <header id="masthead-black-bar-x" class="clearfix masthead-black-bar">
-    <nav class="row">
-      <ul id="global-nav" class="menu">
-        <!-- set active class as appropriate -->
-        <li class="home-mobile"><a href="//www.embl.org"></a></li>
-        <li class="home active"><a href="//www.embl.org" target="_blank">EMBL</a></li>
-        <li class="about"><a href="//intranet.embl.de">EMBL Intranet</a></li>
-        <li class="float-right show-for-medium embl-selector">
-					<button class="button float-right" data-toggle="embl-dropdown2">Global</button>
-          <!-- <button class="button float-right" type="button" data-toggle="embl-dropdown">Global</button> -->
-          <!-- The dropdown menu will be programatically added by script.js -->
 
-
-					<div id="embl-dropdown2" class="embl-dropdown dropdown-pane bottom" data-dropdown>
-										<p>BINGO! EMBL-EBI in Hinxton, Cambridge is one of <br/>six EMBL locations across europe.<br/> <a href="//www.ebi.ac.uk/about" class="small readmore">More about EMBL-EBI</a></p>
-										<h6>Connect to another EMBL location</h6>
-										<div class="small-collapse padding-bottom-large clearfix">
-											<div class="columns small-5 padding-bottom-medium">
-												<a href="http://www.embl.de/">Heidelberg</a>
-												<div class="small">Main laboratory</div>
-											</div>
-											<div class="columns small-7 padding-bottom-medium">
-												<a href="http://www.embl-barcelona.es/">Barcelona</a>
-												<div class="small">Tissue biology and disease modelling</div>
-											</div>
-											<div class="columns small-5 padding-bottom-medium">
-												<a href="http://www.embl.fr/">Grenoble</a>
-												<div class="small">Structural biology</div>
-											</div>
-											<div class="columns small-7 padding-bottom-medium">
-												<a href="http://www.embl-hamburg.de/">Hamburg</a>
-												<div class="small">Structural biology</div>
-											</div>
-											<div class="columns small-5 padding-bottom-medium">
-												<a href="http://www.embl.it/">Rome</a>
-												<div class="small">Epigenetics and neurobiology</div>
-											</div>
-											<div class="columns small-7 padding-bottom-medium">
-												<a href="http://embl.org/" class="readmore">More about EMBL</a>
-											</div>
-										</div>
-					</div>
-
-
-
-
-
-
-
-        </li>
-      </ul>
-    </nav>
+  <header id="masthead-black-bar-disable-auto-injection-from-script-js" class="clearfix masthead-black-bar">
+    <div>
+      <nav id="embl-bar" class="embl-bar global-masthead-interactive-banner">
+        <div class="row padding-bottom-medium">
+          <div class="columns padding-top-medium">
+            <button class="close-button" aria-label="Close alert" type="button"><span aria-hidden="true">×</span></button>
+          </div>
+          <div class="columns medium-8">
+            <div class="large-8 medium-12">
+              <p></p>
+              <h3 class="inline">EMBL</h3> was founded in 1974 by its member states to promote the molecular life sciences in Europe and beyond.
+              <p></p>
+            </div>
+            <div class="row large-up-3 medium-up-3 small-up-2 no-underline medium-11">
+              <div class="column padding-bottom-medium"><a class="" href="#research"><h5 class="inline underline">Research</h5> the molecular basis of life</a></div>
+              <div class="column padding-bottom-medium"><a class="" href="#"><h5 class="inline underline">Services</h5> and infrastructure for research</a></div>
+              <div class="column padding-bottom-medium"><a class="" href="#"><h5 class="inline underline">Training</h5> and inspiring scientists</a></div>
+              <div class="column padding-bottom-medium"><a class="" href="#"><h5 class="inline underline">Transfer</h5> and deverlopment of technology</a></div>
+              <div class="column padding-bottom-medium"><a class="" href="#"><h5 class="inline underline">Integrating</h5> life science research in Europe</a></div>
+            </div>
+            <div class="margin-top-xlarge no-underline">
+              <h3><a href="//embl.org" class="readmore">More about EMBL</a></h3></div>
+          </div>
+          <div class="columns medium-4">
+            <div class="large-10 medium-12">
+              <p></p>
+              <h3 class="inline">Six locations</h3> represent EMBL across Europe, each has its own focus.
+              <p></p>
+            </div>
+            <div class="row large-up-3 medium-up-2 small-up-2">
+              <div class="column">
+                <h5><a href="//www.embl-barcelona.es/">Barcelona</a></h5>
+                <p class="small">Tissue biology and disease modelling</p>
+              </div>
+              <div class="column">
+                <h5><a href="//www.embl.fr/">Grenoble</a></h5>
+                <p class="small">Structural biology</p>
+              </div>
+              <div class="column">
+                <h5><a href="//www.embl-hamburg.de/">Hamburg</a></h5>
+                <p class="small">Structural biology</p>
+              </div>
+              <div class="column">
+                <h5><a href="//www.embl.de/">Heidelberg</a></h5>
+                <p class="small">Main laboratory</p>
+              </div>
+              <div class="column">
+                <h5><a href="https://www.ebi.ac.uk/">Hinxton</a></h5>
+                <p class="small margin-bottom-none">Bioinformatiocs at the EBI</p>
+              </div>
+              <div class="column">
+                <h5><a href="//www.embl.it/">Rome</a></h5>
+                <p class="small">Epigenetics and neurobiology</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <nav class="row">
+        <ul id="global-nav" class="menu global-nav text-right">
+          <li class="where barcelona hide"><a href="#">Barcelona</a></li>
+          <li class="where hamburg hide"><a href="#">Hamburg</a></li>
+          <li class="where grenoble hide"><a href="#">Heidelberg</a></li>
+          <li class="where grenoble hide"><a href="#">Grenoble</a></li>
+          <li class="where rome hide"><a href="#">Rome</a></li>
+          <li id="embl-selector" class="float-right show-for-medium embl-selector">
+            <button class="button float-right">&nbsp;</button>
+          </li>
+          <li class="float-right search"><a href="#" class="inline-block collpased float-left search-toggle"><span class="show-for-small-only">Search</span></a></li>
+          <li class="what about" target="_blank"><a href="//intranet.embl.de">EMBL Intranet</a></li>
+          <li class="where ebi hide"><a href="https://www.ebi.ac.uk">EMBL-EBI</a></li>
+          <li class="where ebi embl-x" target="_blank"><a href="http://www.embl.org">EMBL</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-
+    
   <?php do_action( 'ebiframework_after_body' ); ?>
 
   <?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) === 'offcanvas' ) : ?>
