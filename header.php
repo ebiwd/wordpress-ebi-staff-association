@@ -25,7 +25,7 @@
       <li><a href="#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a></li>
     </ul>
   </div>
-  <header id="masthead-black-bar" class="clearfix masthead-black-bar">
+  <header id="masthead-black-bar-x" class="clearfix masthead-black-bar">
     <nav class="row">
       <ul id="global-nav" class="menu">
         <!-- set active class as appropriate -->
