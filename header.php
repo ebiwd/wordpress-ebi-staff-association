@@ -94,9 +94,9 @@
           <li class="where grenoble hide"><a href="#">Grenoble</a></li>
           <li class="where rome hide"><a href="#">Rome</a></li>
           <li id="embl-selector" class="float-right show-for-medium embl-selector">
-            <button class="button float-right">&nbsp;</button>
+            <button class="button float-right" onclick="window.location.href='http://embl.org'">&nbsp;</button>
           </li>
-          <li class="float-right search"><a href="#" class="inline-block collpased float-left search-toggle"><span class="show-for-small-only">Search</span></a></li>
+          <li class="float-right search hide"><a href="#" class="inline-block collpased float-left search-toggle"><span class="show-for-small-only">Search</span></a></li>
           <li class="what about" target="_blank"><a href="//intranet.embl.de">EMBL Intranet</a></li>
           <li class="where ebi hide"><a href="https://www.ebi.ac.uk">EMBL-EBI</a></li>
           <li class="where ebi embl-x" target="_blank"><a href="http://www.embl.org">EMBL</a></li>
